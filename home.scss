@@ -1,0 +1,504 @@
+*{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+
+nav{
+     .navbar-brand{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                     img{
+                          height: 30px;
+                          width: 33px;
+                     }
+                     .brand-name{
+                         font-family: Inter-Regular;
+                         src: url(/fonts/Inter/static/Inter-Regular.ttf);
+                         font-weight: 500;
+                         padding-left: 5px;
+                     }
+                    
+     }
+     .nav-item{
+               a{
+                     text-transform: capitalize;
+                     font-weight: 400;
+                     color: black;
+                     font-family: Rubik-Regular;
+                     src: url(/fonts/Rubik/static/Rubik-Regular.ttf);
+               }
+               a:hover{
+                      color: black;
+               }
+     }
+     .btn-close{
+                opacity: 5;
+                outline: none;
+                border: none;
+     }
+     .btn-close:hover{
+                     opacity: 5;
+     }
+     .btn-close:focus{
+                      opacity: 5;
+                      box-shadow: none;
+     }
+     .navbar-toggler{
+                     border: none;
+                     outline: none;
+                     box-shadow: none;
+     }
+     .navbar-toggler:focus{
+                      box-shadow: none;
+     }
+     .navbar-nav{
+                 text-align: center;
+     }
+     .touch{
+          display: grid;
+          align-items: center;
+          justify-content: center;
+             .btn{
+               outline: none;
+               border: none;
+               background-color: #0c0c0c;
+               color: white;
+               text-transform: capitalize;
+               box-shadow: none;
+               border-radius: 16px;
+               
+               }
+
+
+               .btn:focus{
+               box-shadow: none;
+               background-color: #000000;
+               color: white;
+               
+               }
+     }
+}
+.hero-section{
+              overflow: hidden;
+              
+
+               .part1{
+                      padding: 14px 15px;
+                      margin-top: 25px;
+                      h2{
+                          text-transform: capitalize;
+                          font-weight: bolder;
+                          font-family: Inter-Medium;
+                          src: url(/fonts/Inter/static/Inter-Medium.ttf);
+                          
+                      }
+                      p{
+                         text-transform: capitalize;
+                         font-weight: 300;
+                         margin-top: 38px;
+                         font-family: Rubik-Regular;
+                          src: url(/fonts/Rubik/static/Rubik-Regular.ttf);
+                      }
+                      .btn{
+                         outline: none;
+                         border: none;
+                         background-color: #0c0c0c;
+                         color: white;
+                         text-transform: capitalize;
+                         box-shadow: none;
+                         border-radius: 16px;
+                         }
+          
+          
+                         .btn:focus{
+                         box-shadow: none;
+                         background-color: #000000;
+                         color: white;
+                         
+                         }
+               }
+               .part2{
+                       display: grid;
+                       align-items: center;
+                       justify-content: center;
+                        img{
+                                height: auto;
+                                width: 100%;
+                        }
+               }
+
+
+              
+}
+
+.part2{
+     .wrap{
+         
+         
+     p{
+           font-family:Poppins-Regular ;
+           src: url('fonts/Poppins/Poppins-Regular.ttf');
+           font-size: 12px;
+     }
+     .col-md-4{
+               
+                padding-top: 14px;
+               
+                display: grid;
+                align-items: center;
+                justify-content: center;
+               
+     }
+     }
+}
+
+.part3{
+     
+       .col-md-4{
+                 padding: 158px 30px;
+                  display: grid;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 10px 15px;
+       }
+       .card{
+             border: 1px solid rgba(134, 133, 133, 0.265);
+             border-radius: 15px;
+             width: 240px;
+             height: 250px;
+             
+       }
+       .card-body{
+                  text-align: left;
+                  span{
+                    img{
+                        height: 44px;
+                        width: 45px;
+                    }
+                    
+               }
+               .card-title{
+                           margin-top: 14px;
+                           text-transform: capitalize;
+                           font-weight: 500;
+                           padding-right: 52px;
+                           font-size: 23px;
+                           font-family: Inter-Medium;
+                           src: url(/fonts/Inter/static/Inter-Medium.ttf);
+               }
+               p{
+                   font-weight: 300;
+                   text-transform: capitalize;
+                   font-family:Rubik-Regular ;
+                   src: url(/fonts/Rubik/static/Rubik-Regular.ttf);
+               }
+       }
+}
+
+.part4{
+    
+       img{
+            height: 50px;
+            width: 80px;
+       }
+}
+
+.part5{
+        .row{
+          background: linear-gradient(to top, #49B8D4 0%, #1080A0 100%);
+            
+        }
+        .col{
+          background-image: url('pic/agancy-girl.png.png');
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 485px;
+          display: grid;
+                align-items: center;
+                justify-content: center;
+          h1{
+                text-transform: capitalize;
+                color: rgb(0, 0, 0);
+                 font-weight: bolder;
+                text-align: center;
+                font-family:Inter-ExtraBold  ;
+                src: url(/fonts/Inter/static/Inter-ExtraBold.ttf);
+                
+          }
+          
+        }
+}
+
+
+
+.part6{
+        padding-top: 65px;
+               .part6-child1{
+                             display: flex;
+               }
+               .pt6-pic1{
+                        img{
+                            height: 200px;
+                            width: 230px;
+                        }      
+               }
+               
+              
+           .part6-child2{
+                         h2{
+                               text-transform: capitalize;
+                               color: black;
+                               padding-top: 15px;
+                         }
+                         p{
+                               text-transform: capitalize;
+                               font-weight: 300;
+                         }
+                         .btn{
+                               border: 1px solid black;
+                               color: black;
+                               text-transform: capitalize;
+                               outline: none;
+                               border-radius: 16px;
+                         }
+                         .btn:focus{
+                                     box-shadow: none;
+                         }
+           }
+       
+}
+
+.part7{
+       padding-top: 165px; 
+       .contact{
+                    .form-group{
+                              padding-top: 25px;
+                         }
+                    .form-control{
+                                   border: 0px;
+                                   border-bottom: 1px solid gray;
+                                   outline: none;
+                                   border-radius: 0px;
+
+                    }
+                    .form-control:focus{
+                                   box-shadow: none;
+                    }
+                 
+
+                }
+     .part7-child1{
+                    padding: 10px 10px;
+                    h1{
+                          text-transform: capitalize;
+
+                    }
+                    p{
+                          text-transform: capitalize;
+                          font-weight: 300;
+                          padding-top: 18px;
+                    }
+                    h4{
+                          font-weight: 500;
+                    }
+                  }
+    
+      .send{
+           .col{
+                         .btn{
+                              border: 1px solid black;
+                              color: black;
+                              text-transform: capitalize;
+                              outline: none;
+                              border-radius: 16px;
+                    }
+                    .btn:focus{
+                                   box-shadow: none;
+                    }
+           }
+      }
+}
+
+
+.part8{
+         display: grid;
+         align-items: center;
+         justify-content: center;
+         padding-top: 180px;
+         .col{
+          text-align: center;
+          h1{
+                text-transform: capitalize;
+          }
+          p{
+                text-transform: capitalize;
+                font-weight: 300;
+          }
+                form{
+                     display: flex;
+                     gap: 8px;
+                     .form-control{
+                         
+                         border: 1px solid gray;
+                         outline: none;
+                         border-radius: 16px;
+
+                         }
+                         .form-control:focus{
+                                        box-shadow: none;
+                         }
+                         .btn{
+                              outline: none;
+                              border: none;
+                              background-color: #0c0c0c;
+                              color: white;
+                              text-transform: capitalize;
+                              box-shadow: none;
+                              border-radius: 16px;
+                              width: 150px;
+                              }
+               
+               
+                              .btn:focus{
+                              box-shadow: none;
+                              background-color: #000000;
+                              color: white;
+                              
+                              }
+                         
+                }
+         }
+}
+
+
+
+
+footer{
+     .container-fluid{
+                     margin-top: 65px;
+                     
+     }
+     .footer-row{
+                 
+                  .footer-logo{
+                   padding-top: 8px;
+                               p{
+                                   text-align: center;
+                               }
+                               
+                  }
+                  .mail{
+                          .sent-mail{
+                                      display: flex;
+                                      gap: 3px;
+                                     button{
+                                             background-color: rgb(15, 15, 15);
+                                             color: white;
+                                             text-transform: capitalize;
+                                             border: none;
+                                             outline: none;
+                                     }
+                                     button:focus{
+                                                  box-shadow: none;
+                                     }
+                                     input{
+                                             border: 1px solid gray;
+                                             outline: none;
+                                     }
+                                     input:focus{
+                                                  box-shadow: none;
+                                     }
+                          }
+                  }
+                 
+                  
+     }
+    
+      .col-md-3{
+                padding-top: 8px;
+               a{
+                    color: black;
+                    text-transform: capitalize;
+                    font-weight: 300;
+                    text-decoration: none;
+                   
+                    
+               }
+               
+               .des{
+                     p{
+                       text-align: right;
+                     }
+               }
+               
+      }
+      .col-md-2{
+         padding-top: 8px;
+                  
+                       
+                                
+                        
+        a{
+             color: black;
+             text-transform: capitalize;
+             font-weight: 300;
+             text-decoration: none;
+             
+        }
+        p{
+             text-align: center;
+        }
+        
+}
+}
+
+
+@media screen and (max-width:768px){
+   
+                         #hel{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                   flex-direction: column-reverse;
+                                   .part1{
+                                         text-align: center;
+                                   }
+                                   .part2{
+                                          display: grid;
+                                          align-items: center;
+                                          justify-content: center;
+                                   }        
+                         }
+                         .part6-child1{
+                                         display: grid;
+                                         align-items: center;
+                                         justify-content: center;
+                         }
+                         .part6-child2{
+                                        text-align: center;
+                         }
+                         .part7-child1{
+                              text-align: center;
+                         }
+                         .des{
+                               text-align: center;
+                         }
+                         .contact{
+                                  display: grid;
+                                         align-items: center;
+                                         justify-content: center;
+                         }
+                         .ddll{
+                                          display: flex;
+                                          flex-direction: column;
+                         }
+                
+                          
+               
+                 
+    
+}

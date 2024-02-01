@@ -1,0 +1,553 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .navbar-brand img {
+  height: 30px;
+  width: 33px;
+}
+
+nav .navbar-brand .brand-name {
+  font-family: Inter-Regular;
+  src: url(/fonts/Inter/static/Inter-Regular.ttf);
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+nav .nav-item a {
+  text-transform: capitalize;
+  font-weight: 400;
+  color: black;
+  font-family: Rubik-Regular;
+  src: url(/fonts/Rubik/static/Rubik-Regular.ttf);
+}
+
+nav .nav-item a:hover {
+  color: black;
+}
+
+nav .btn-close {
+  opacity: 5;
+  outline: none;
+  border: none;
+}
+
+nav .btn-close:hover {
+  opacity: 5;
+}
+
+nav .btn-close:focus {
+  opacity: 5;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+nav .navbar-toggler {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+nav .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+nav .navbar-nav {
+  text-align: center;
+}
+
+nav .touch {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .touch .btn {
+  outline: none;
+  border: none;
+  background-color: #0c0c0c;
+  color: white;
+  text-transform: capitalize;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 16px;
+}
+
+nav .touch .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #000000;
+  color: white;
+}
+
+.hero-section {
+  overflow: hidden;
+}
+
+.hero-section .part1 {
+  padding: 14px 15px;
+  margin-top: 25px;
+}
+
+.hero-section .part1 h2 {
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-family: Inter-Medium;
+  src: url(/fonts/Inter/static/Inter-Medium.ttf);
+}
+
+.hero-section .part1 p {
+  text-transform: capitalize;
+  font-weight: 300;
+  margin-top: 38px;
+  font-family: Rubik-Regular;
+  src: url(/fonts/Rubik/static/Rubik-Regular.ttf);
+}
+
+.hero-section .part1 .btn {
+  outline: none;
+  border: none;
+  background-color: #0c0c0c;
+  color: white;
+  text-transform: capitalize;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 16px;
+}
+
+.hero-section .part1 .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #000000;
+  color: white;
+}
+
+.hero-section .part2 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .part2 img {
+  height: auto;
+  width: 100%;
+}
+
+.part2 .wrap p {
+  font-family: Poppins-Regular;
+  src: url("fonts/Poppins/Poppins-Regular.ttf");
+  font-size: 12px;
+}
+
+.part2 .wrap .col-md-4 {
+  padding-top: 14px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.part3 .col-md-4 {
+  padding: 158px 30px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 15px;
+}
+
+.part3 .card {
+  border: 1px solid rgba(134, 133, 133, 0.265);
+  border-radius: 15px;
+  width: 240px;
+  height: 250px;
+}
+
+.part3 .card-body {
+  text-align: left;
+}
+
+.part3 .card-body span img {
+  height: 44px;
+  width: 45px;
+}
+
+.part3 .card-body .card-title {
+  margin-top: 14px;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding-right: 52px;
+  font-size: 23px;
+  font-family: Inter-Medium;
+  src: url(/fonts/Inter/static/Inter-Medium.ttf);
+}
+
+.part3 .card-body p {
+  font-weight: 300;
+  text-transform: capitalize;
+  font-family: Rubik-Regular;
+  src: url(/fonts/Rubik/static/Rubik-Regular.ttf);
+}
+
+.part4 img {
+  height: 50px;
+  width: 80px;
+}
+
+.part5 .row {
+  background: -webkit-gradient(linear, left bottom, left top, from(#49B8D4), to(#1080A0));
+  background: linear-gradient(to top, #49B8D4 0%, #1080A0 100%);
+}
+
+.part5 .col {
+  background-image: url("pic/agancy-girl.png.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 485px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.part5 .col h1 {
+  text-transform: capitalize;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Inter-ExtraBold;
+  src: url(/fonts/Inter/static/Inter-ExtraBold.ttf);
+}
+
+.part6 {
+  padding-top: 65px;
+}
+
+.part6 .part6-child1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.part6 .pt6-pic1 img {
+  height: 200px;
+  width: 230px;
+}
+
+.part6 .part6-child2 h2 {
+  text-transform: capitalize;
+  color: black;
+  padding-top: 15px;
+}
+
+.part6 .part6-child2 p {
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.part6 .part6-child2 .btn {
+  border: 1px solid black;
+  color: black;
+  text-transform: capitalize;
+  outline: none;
+  border-radius: 16px;
+}
+
+.part6 .part6-child2 .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.part7 {
+  padding-top: 165px;
+}
+
+.part7 .contact .form-group {
+  padding-top: 25px;
+}
+
+.part7 .contact .form-control {
+  border: 0px;
+  border-bottom: 1px solid gray;
+  outline: none;
+  border-radius: 0px;
+}
+
+.part7 .contact .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.part7 .part7-child1 {
+  padding: 10px 10px;
+}
+
+.part7 .part7-child1 h1 {
+  text-transform: capitalize;
+}
+
+.part7 .part7-child1 p {
+  text-transform: capitalize;
+  font-weight: 300;
+  padding-top: 18px;
+}
+
+.part7 .part7-child1 h4 {
+  font-weight: 500;
+}
+
+.part7 .send .col .btn {
+  border: 1px solid black;
+  color: black;
+  text-transform: capitalize;
+  outline: none;
+  border-radius: 16px;
+}
+
+.part7 .send .col .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.part8 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 180px;
+}
+
+.part8 .col {
+  text-align: center;
+}
+
+.part8 .col h1 {
+  text-transform: capitalize;
+}
+
+.part8 .col p {
+  text-transform: capitalize;
+  font-weight: 300;
+}
+
+.part8 .col form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+
+.part8 .col form .form-control {
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 16px;
+}
+
+.part8 .col form .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.part8 .col form .btn {
+  outline: none;
+  border: none;
+  background-color: #0c0c0c;
+  color: white;
+  text-transform: capitalize;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 16px;
+  width: 150px;
+}
+
+.part8 .col form .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #000000;
+  color: white;
+}
+
+footer .container-fluid {
+  margin-top: 65px;
+}
+
+footer .footer-row .footer-logo {
+  padding-top: 8px;
+}
+
+footer .footer-row .footer-logo p {
+  text-align: center;
+}
+
+footer .footer-row .mail .sent-mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3px;
+}
+
+footer .footer-row .mail .sent-mail button {
+  background-color: #0f0f0f;
+  color: white;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+}
+
+footer .footer-row .mail .sent-mail button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+footer .footer-row .mail .sent-mail input {
+  border: 1px solid gray;
+  outline: none;
+}
+
+footer .footer-row .mail .sent-mail input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+footer .col-md-3 {
+  padding-top: 8px;
+}
+
+footer .col-md-3 a {
+  color: black;
+  text-transform: capitalize;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+footer .col-md-3 .des p {
+  text-align: right;
+}
+
+footer .col-md-2 {
+  padding-top: 8px;
+}
+
+footer .col-md-2 a {
+  color: black;
+  text-transform: capitalize;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+footer .col-md-2 p {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #hel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #hel .part1 {
+    text-align: center;
+  }
+  #hel .part2 {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .part6-child1 {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .part6-child2 {
+    text-align: center;
+  }
+  .part7-child1 {
+    text-align: center;
+  }
+  .des {
+    text-align: center;
+  }
+  .contact {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .ddll {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=home.css.map */
